@@ -1,0 +1,42 @@
+.post {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+.contenido {
+    padding: 1.5rem;
+}
+.contenido h3 {
+    font-size: 1.6rem;
+}
+.fecha {
+    font-size: 1.6rem;
+    color: var(--primary);
+}
+.resumen {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.texto {
+    white-space: pre-wrap;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.enlace {
+  display: block;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: var(--black);
+  color: #fff;
+  padding: 1rem;
+  font-size: 1 4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.enlace:hover {
+  background-color: var(--primary); 
+}
