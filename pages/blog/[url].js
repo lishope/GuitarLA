@@ -55,6 +55,6 @@ export async function getServerSideProps({ query: { url } }) {
         post: data?.[0] || null,
       },
     }
- 
+
 }
 
