@@ -25,18 +25,21 @@
     margin-top: 3rem;
 }
 .enlace {
-  display: block;
-  margin-top: 2rem;
-  padding: 1rem;
-  background-color: var(--black);
-  color: #fff;
-  padding: 1rem;
-  font-size: 1 4rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+    display: block;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: var(--black);
+    color: #fff;
+    font-size: 1.4rem; 
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 0.5rem; 
 }
 
+
 .enlace:hover {
-  background-color: var(--primary); 
+    background-color: var(--primary); 
 }
