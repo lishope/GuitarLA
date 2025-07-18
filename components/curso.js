@@ -13,7 +13,7 @@ export default function curso({curso}) {
 
   return (
     <section className={`${styles.curso} curso`}>
-        <style jsx>{`
+        <style>{`
         .curso {
             background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)),url(${imagen?.url});
         }
